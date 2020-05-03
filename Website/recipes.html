@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lan = "en">
+  <head>
+    <title> CACAD - Learn to Cook </title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="banner">
+    <h1> Welcome to the Cooking Academy!</h1>
+    <h4> Where your dreams can come true! </h4>
+  </div>
+  <nav>
+    <ul class="topnav" id ="dropdownClick">
+      <li> <a class ="active" href="#home">Home</a></li>
+      <li> <a href="#about">About</a></li>
+      <li> <a href="#forum">Forum</a></li>
+      <li> <a href="#recipes">Recipes</a></li>
+      <li class="topnav-right"> <a href="#signup"> Sign Up </a></li>
+      <li class="topnav-right"> <a href="#login"> Login </a></li>
+      <li class="dropdownIcon"> <a href="javascript:void(0);" onclick=dropdownMenu()>&#9776;</a></li>
+    </ul>
+  </nav>
+  <input class = "searchBar" type="text" placeholder="Search">
+  <table class = "recipeTable" cellspacing ="20" align = center border = 2>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+</table>
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if(x.className === "topnav") {
+        x.className += "responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  </body>
+</html>

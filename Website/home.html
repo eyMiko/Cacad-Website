@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title> CACAD - Learn to Cook </title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="banner">
+      <h1> Welcome to the Cooking Academy!</h1>
+      <h4> Where your dreams can come true! </h4>
+    </div>
+    <nav>
+      <ul class="topnav" id ="dropdownClick">
+        <li> <a class ="active" href="#home">Home</a></li>
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#forum">Forum</a></li>
+        <li> <a href="#recipes">Recipes</a></li>
+        <li class="topnav-right"> <a href="#signup"> Sign Up </a></li>
+        <li class="topnav-right"> <a href="#login"> Login </a></li>
+        <li class="dropdownIcon"> <a href="javascript:void(0);" onclick=dropdownMenu()>&#9776;</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <p> Welcome to CACAD! Here you can find an wide selection of recipes and cooking
+    videos that you'll find <b>very</b> useful! </p>
+    <hr>
+    <h2> Popular Recipes <h2>
+    <table cellspacing = "50" align = center>
+      <tr>
+        <td> <img src = "https://www.skinnytaste.com/wp-content/uploads/2020/01/Wonton-Soup-7-500x500.jpg"
+          alt = "Wonton Soup" height = "200" width = "200"> <br> <a href = "#"> Wonton Soup </a> </td>
+        <td> <img src = "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg"
+          alt = "Pho" height = "200" width = "200"> <br> <a href = "#"> Phở </a> </td>
+        <td> <img src = "https://d3eh3svpl1busq.cloudfront.net/dRmeqEaRPMKbMqcOIpjsfKblXfEAxNKj/assets/static/source/wp-content/uploads/bed032d519a25f12debc7094b45968af.bun-bo-hue-portrait.jpg"
+          alt = "Bun Bo Hue" height = "200" width = "200"> <br> <a href = "#"> Bún bò Huế </a></td>
+        <td> <img src="https://www.budgetbytes.com/wp-content/uploads/2017/01/Bibimbap-above-500x500.jpg"
+          alt = "Bimbibap" height = "200" width = "200"> <br> <a href = "#"> Bimbibap </a> </td>
+      </tr>
+      <tr>
+        <td> <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F201311-xl-shredded-ginger-chicken-congee.jpg%3Fitok%3DH4JBJi8e"
+          alt = "Congee" height = "200" width = "200"> <br> <a href = "#"> Ginger Chicken Congee </a> </td>
+        <td> <img src = "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2F1551740522%2F0867_180612_DuPree_MyRecipe_Traditional%20Spanish%20Paella_6996%20copy.jpg%3Fitok%3Dcr6GuJWO"
+          alt = "Paella" height = "200" width = "200"> <br> <a href = "#"> Traditional Spanish Paella </a> </td>
+        <td> <img src = "https://cdn.shopify.com/s/files/1/0111/1729/7722/articles/shutterstock_697241275_tonkotsu_ramen-landscape.jpg?v=1562316760"
+          alt = "Tonkotsu Ramen" height = "200" width = "200"> <br> <a href = "#"> Tonkostu Ramen </a> </td>
+        <td> <img src = "https://redhousespice.com/wp-content/uploads/2017/02/Dan-dan-noodles-8.jpg"
+          alt = "Dan Dan Noodles" height = "200" width = "200"> <br> <a href = "#"> Dan Dan Noodles </a> </td>
+      </tr>
+    </table>
+    <hr>
+    <table align = "center">
+      <td> <div class = "home-leftSide-col">
+        <h2> Why CACAD? So you won't be... </h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PV3_UHG73oQ"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      </div> </td>
+      <td> <div class = "home-rightSide-col">
+        <h4> Want to join our email list? Get a free recipe every week! </h4>
+        <form>
+          Email:
+          <input class="inputbox" name="email" type = "text" placeholder="Type your email here."> <br> <br>
+          <button> Submit </button>
+        </form>
+    </div> </td>
+  </table>
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if(x.className === "topnav") {
+        x.className += "responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  </body>
+</html>

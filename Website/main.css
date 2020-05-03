@@ -1,0 +1,81 @@
+body.login-body {
+  background-color: #c6dfd7;
+}
+
+.container.login-container {
+  margin-top: 8%;
+
+}
+
+.card.login-card {
+  padding: 40px 0px 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+img.login-img {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+form.login-form {
+  max-width: 350px;
+  margin: auto;
+}
+
+button.login-btn {
+  background-color: #c6dfd7;
+  width: 100%;
+  color: white;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.create-new-account {
+  text-align: center;
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 10px;
+}
+
+body.home-body {
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+
+.food-card {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sectionOne {
+  background-color: #f7f9f9;
+  margin-bottom: 4rem;
+}
+.sectionTwo {
+  background-color: #f4f6f7;
+}
+
+.footerImg {
+  max-width: 150px;
+  max-height:150px;
+}
+
+.iconWrapper {
+  margin: auto;
+  display: block;
+  margin-top: 3rem;
+}
+
+.fab {
+  margin: 15px;
+}
